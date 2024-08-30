@@ -51,7 +51,7 @@ const Links = () => {
         <Link to="/about">About</Link>
       </li>
       <li>
-        <Link to="#">Gallery</Link>
+        <Link to="/gallery">Gallery</Link>
       </li>
     </>
   );
