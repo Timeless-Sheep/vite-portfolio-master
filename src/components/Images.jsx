@@ -5,9 +5,9 @@ export const Images = () => {
   const showImageModal = (imageUrl, imageAlt) => {
     Swal.fire({
       imageUrl: imageUrl,
-      imageWidth: 400,
-      imageHeight: 200,
       imageAlt: imageAlt,
+      showConfirmButton: false,
+      showCloseButton: true,
     });
   };
 
