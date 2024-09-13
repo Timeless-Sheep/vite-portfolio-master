@@ -70,6 +70,31 @@ export const Images = () => {
           onClick={() => showImageModal("/new-images/stare.png", "blank space cat")}
         />
       </div>
+      <div className="overflow-hidden cursor-pointer">
+        <img
+          src="/new-images/barkada.jpg"
+          alt="blank space cat"
+          className="w-80 h-48 object-cover transform hover:scale-105 transition-transform duration-300"
+          onClick={() => showImageModal("/new-images/barkada.jpg", "my brothers from another mothers")}
+        />
+      </div>
+      <div className="overflow-hidden cursor-pointer">
+        <img
+          src="/new-images/mybrothers.jpg"
+          alt="blank space cat"
+          className="w-80 h-48 object-cover transform hover:scale-105 transition-transform duration-300"
+          onClick={() => showImageModal("/new-images/mybrothers.jpg", "my brothers")}
+        />
+      </div>
+      <div className="overflow-hidden cursor-pointer">
+        <img
+          src="/new-images/pacxnuki.jpg"
+          alt="blank space cat"
+          className="w-80 h-48 object-cover transform hover:scale-105 transition-transform duration-300"
+          onClick={() => showImageModal("/new-images/pacxnuki.jpg", "my brothers from another mothers")}
+        />
+      </div>
+      
     </div>
   </div>
   );
