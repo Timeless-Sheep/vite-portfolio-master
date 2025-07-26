@@ -11,7 +11,7 @@ const Hobbies = () => {
     },
     {
       title: "Collection",
-      text: "I like knives and guns",
+      text: "I collect knives and firearms as a hobby and other stuff that I find interesting.",
       image:
         "https://dz2cdn1.dzone.com/storage/temp/12808952-model-car-collection.jpeg",
     },
